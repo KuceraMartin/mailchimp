@@ -1,0 +1,22 @@
+{
+    "name": "mkucera/mailchimp",
+    "description": "Tiny Mailchimp API client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Kučera"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "kdyby/strict-objects": "^1.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "nette/utils": "^2.4"
+    },
+    "autoload": {
+        "classmap": [
+            "src/MailChimp.php"
+        ]
+    }
+}
